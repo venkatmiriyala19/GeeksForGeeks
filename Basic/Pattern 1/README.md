@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/square-pattern/1?page=3&difficulty=Basic&status=unsolved&sortBy=submissions">Pattern 1</a></h2><h3>Difficulty Level : Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Geek is very fond of patterns. Once, his teacher gave him a&nbsp;square pattern to solve. He gave Geek&nbsp;an integer n and asked him to build a pattern.</span></p>
+<p><span style="font-size: 18px;">Help Geek to build a square pattern with the help of *&nbsp; such that&nbsp;</span><span style="font-size: 18px;">each * is space-separated in each line</span><span style="font-size: 18px;">.</span></p>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong><br>n = 3<strong><br>Output:</strong><br>* * *<br>* * *<br>* * *<br></span></pre>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: medium; white-space: normal;"><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
+<pre><strong>Input:</strong><br>n = 5<strong><br>Output:</strong><br>* * * * *<br>* * * * *<br>* * * * *<br>* * * * *<br>* * * * *</pre>
+<p><span style="font-size: 18px;"><strong>Your Task:</strong> You don't need to input anything. Complete the function <strong>printSquare()&nbsp;</strong>which takes&nbsp; an integer n <strong>&nbsp;</strong>as the input parameter&nbsp;and print the pattern.</span></p>
+<p><span style="font-size: 18px;"><strong>Time Complexity :</strong> O(n<sup>2</sup>)<br><strong>Space Complexity :</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong></span><span style="font-size: 18px;">1&lt;= n &lt;= 1000</span></p></div>
