@@ -1,29 +1,31 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/replace-all-0s-with-5/1?page=3&difficulty=Basic&status=unsolved&sortBy=submissions">Replace all 0's with 5</a></h2><h3>Difficulty Level : Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">You are given an integer N. You need to convert all zeroes of N&nbsp;to 5. </span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/replace-all-0-with-5-in-an-input-integer/1?page=4&difficulty=Basic&status=unsolved&sortBy=submissions">Replace all 0's with 5</a></h2><h3>Difficulty Level : Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a number <strong>N.</strong> The task is to complete the function </span><strong><span style="font-size:18px">convertFive()</span></strong><span style="font-size:18px"> which&nbsp;replaces all zeros in the number with 5 and returns the number.</span></p>
 
-<p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
+<p><span style="font-size:18px"><strong>Example:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:
-</strong>N = 1004
-<strong>Output: </strong>1554<strong>
-Explanation: </strong>There are two zeroes in 1004
-on replacing all zeroes with "5", the new
-number will be "1554".</span>
-</pre>
+<pre><span style="font-size:18px"><strong>Input</strong>
+2
+1004
+121</span>
 
-<p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
+<span style="font-size:18px"><strong>Output</strong>
+1554
+121</span>
 
-<pre><span style="font-size:18px"><strong>Input:
-</strong>N = 121
-<strong>Output: </strong>121<strong>
-Explanation: </strong>Since there are no zeroes in
-"121", the number remains as "121".</span></pre>
+<strong><span style="font-size:18px">Explanation:
+Testcase 1:</span></strong>  <span style="font-size:18px">At index 1 and 2 there is 0 so we replace it with 5.</span>
+<strong><span style="font-size:18px">Testcase 2: </span></strong><span style="font-size:18px">There is no,0 so output will remain the same</span>.</pre>
 
-<p><strong><span style="font-size:18px">Your Task:</span></strong><br>
-<span style="font-size:18px">Your task is to complete the function <strong>convertFive()</strong> which takes an integer N&nbsp;as an argument and&nbsp;replaces all zeros in the number N<strong>&nbsp;with 5</strong>. Your function should return the converted number.</span></p>
+<p><strong style="font-size:18px">Input:</strong><br>
+<span style="font-size:18px">The first line of input contains an integer <strong>T</strong>, denoting the number of test cases</span><span style="font-size:18px">.</span><span style="font-size:18px"> Then T test cases&nbsp;</span><span style="font-size:18px">follow.</span><br>
+<span style="font-size:18px">Each test case contains a single integer N denoting the number.</span></p>
 
-<p><span style="font-size:18px"><strong>Expected Time Complexity:</strong> O(K</span>)<span style="font-size:18px"> where K is the number of digits in N<br>
-<strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size:18px"><strong>Output:</strong><br>
+The function will return an integer where all zero's are converted to</span><span style="font-size:18px"> 5.</span></p>
+
+<p><span style="font-size:18px"><strong>Your Task:</strong><br>
+Since this is a functional problem you don't have to worry about input, you just have to complete the function </span><strong><span style="font-size:18px">convertFive().</span></strong></p>
 
 <p><span style="font-size:18px"><strong>Constraints:</strong><br>
-1 &lt;= n &lt;= 10000</span></p>
-</div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Mathematical</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
+1 &lt;= T &lt;= 10<sup>3</sup><br>
+1 &lt;= N &lt;= 10<sup>4</sup></span></p>
+</div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>number-theory</code>&nbsp;<code>Mathematical</code>&nbsp;<code>Algorithms</code>&nbsp;
