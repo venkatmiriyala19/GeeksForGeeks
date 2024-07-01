@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1?page=1&difficulty=Basic&status=unsolved&sortBy=submissions">Linked List Insertion</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Create a link list of size <strong>n</strong> according to the given input literals. Each integer input is accompanied by an indicator which can either be 0 or 1. If it is 0, insert the integer in the beginning of the link list. If it is 1, insert the integer at the end of the link list. R</span><span style="font-size: 18px;">eturn the head of the modified link list.</span><br><span style="font-size: 18px;"><strong>Hint: </strong>When inserting at the end, make sure that you handle <strong>NULL</strong> explicitly. </span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>LinkedList: 9-&gt;0-&gt;5-&gt;1-&gt;6-&gt;1-&gt;2-&gt;0-&gt;5-&gt;0
+<strong>Output: </strong>5 2 9 5 6<strong>
+Explanation: </strong>Length of Link List n = 5. </span><span style="font-size: 18px;">9 0 indicated that 9 should be inserted in the beginning. Modified Link List = 9. 5 1 indicated that 5 should be inserted in the end. Modified Link List = 9,5. 6 1 indicated that 6 should be inserted in the end. Modified Link List = 9,5,6. 2 0 indicated that 2 should be inserted in the beginning. Modified Link List = 2,9,5,6. 5 0 indicated that 5 should be inserted in the beginning. Modified Link List = 5,2,9,5,6.&nbsp;
+Final linked list = 5, 2, 9, 5, 6.
+</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:
+</strong>LinkedList: 5-&gt;1-&gt;6-&gt;1-&gt;9-&gt;1
+<strong>Output: </strong>5 6 9
+</span>
+<span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(1) for&nbsp;<strong>insertAtBeginning()&nbsp;</strong>and O(n) for <strong>insertAtEnd()</strong>.<br><strong>Expected Auxiliary Space:&nbsp;</strong>O(1) for both.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= n &lt;= 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Hike</code>&nbsp;<code>Wipro</code>&nbsp;<code>TCS</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Data Structures</code>&nbsp;
