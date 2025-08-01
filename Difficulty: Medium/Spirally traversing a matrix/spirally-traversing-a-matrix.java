@@ -8,12 +8,10 @@ class Solution {
         while(left<=right && top<=bottom){
             for(int i=left;i<=right;i++){
                 arr.add(mat[top][i]);
-            }
-            top++;
+            }top++;
             for(int i=top;i<=bottom;i++){
                 arr.add(mat[i][right]);
-            }
-            right--;
+            }right--;
             if(top<=bottom){
                 for(int i=right;i>=left;i--){
                     arr.add(mat[bottom][i]);
