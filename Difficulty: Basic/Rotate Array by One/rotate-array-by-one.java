@@ -4,13 +4,11 @@ class Solution {
     public void rotate(int[] arr) {
         // code here
         int n=arr.length;
-        int temp=arr[0];
-        arr[0]=arr[n-1];
-        for(int i=1;i<n;i++){
-            int temp1=arr[i];
-            arr[i]=temp;
-            temp=temp1;
+        int temp=arr[n-1];
+        for(int i=n-1;i>0;i--){
+            arr[i]=arr[i-1];
         }
+        arr[0]=temp;
         
     }
 }
