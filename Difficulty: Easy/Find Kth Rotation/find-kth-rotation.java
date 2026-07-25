@@ -1,24 +1,22 @@
-// User function Template for Java
-
 class Solution {
-    public int findKRotation(List<Integer> arr) {
+    public int findKRotation(int nums[]) {
         // Code here
-        int min=Integer.MAX_VALUE;
+        int low=0,high=nums.length-1;
+        int min=nums[low];
         int ind=0;
-        int low=0,high=arr.size()-1;
         while(low<=high){
             int mid=(low+high)/2;
-            if(arr.get(low)<=arr.get(mid)){
-                if(min>arr.get(low)){
-                    min=arr.get(low);
+            if(nums[low]<=nums[mid]){
+                if(nums[low]<min){
+                    min=nums[low];
                     ind=low;
                 }
                 low=mid+1;
             }else{
-               if(min>arr.get(mid)){
-                    min=arr.get(mid);
+                if(nums[mid]<min){
+                    min=nums[mid];
                     ind=mid;
-                } 
+                }
                 high=mid-1;
             }
         }
